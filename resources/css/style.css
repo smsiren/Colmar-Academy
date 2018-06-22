@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  color: #363636;
   font-family: 'Roboto', helvetica, sans-serif;;
   font-style: normal;
   font-weight: 300;
@@ -84,8 +85,10 @@ nav li {
 }
 
 .banner .image {
-  background-color: pink;
-    width: 40%;
+  display: flex;
+  align-items: center;
+
+
 }
 
 .banner img {
@@ -95,16 +98,12 @@ nav li {
 
 }
 
-.banner .box {
-  display: flex;
-  align-items: center;
-  margin: 32px 24px;
-  border: red solid 5px;
-}
-
 .banner .text {
-
+  display: block;
+  align-items: center;
+  margin-left: 24px;
 }
+
 
 .banner h1 {
   font-weight: 700;
@@ -112,8 +111,19 @@ nav li {
 }
 
 .banner h2 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.button {
+}
+
+.button span {
+  color: white;
+  background-color: #363636;
+  padding: 8px 100px;
+
 }
 
 /* info */
