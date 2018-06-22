@@ -11,6 +11,29 @@ body {
   font-weight: 300;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+p {
+  font-weight: 300;
+  font-size: .75rem;
+  line-height: 1.1rem;
+}
+
 .container {
   width: 100%;
 }
@@ -76,7 +99,6 @@ nav li {
 .banner {
   background-color: #D3D3D3;
   width: 100%;
-
 }
 
 .banner .flex-container {
@@ -84,18 +106,28 @@ nav li {
   justify-content: flex-start;
 }
 
-.banner .image {
+.banner .content {
   display: flex;
   align-items: center;
-
-
 }
 
 .banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner .right {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.banner .left {
+  background-color: rgba(220,215,215, 0.9);
   width: 60%;
   height: auto;
-  margin: 32px 24px;
-
+  padding: 36px 24px;
 }
 
 .banner .text {
@@ -104,23 +136,16 @@ nav li {
   margin-left: 24px;
 }
 
-
-.banner h1 {
-  font-weight: 700;
-  font-size: 2rem;
-}
-
-.banner h2 {
-  font-weight: 500;
-  font-size: 1rem;
+.banner h3 {
   margin: 2rem 0;
 }
 
-.button {
+.button p {
+  margin: 24px 0;
 }
 
 .button span {
-  color: white;
+  color: #FFFFFF;
   background-color: #363636;
   padding: 8px 100px;
 
@@ -128,10 +153,111 @@ nav li {
 
 /* info */
 
-.info img {
-  margin-top: 200px;
-  height: 100px;
+.info .flex-container {
+  display: flex;
+  justify-content: flex-start;
 }
+
+.info .featured-block {
+  background-color: rgba(247,215,215, 0.9);
+  width: 60%;
+  height: auto;
+  padding: 36px 24px;
+}
+
+.info .featured-block .text {
+  margin-top: 32px;
+}
+
+.info-block {
+  display: block;
+  align-items: flex-start;
+  width: 40%;
+  height: auto;
+}
+
+.info img {
+  width: 100%;
+  height: auto;
+
+}
+
+.info .text {
+  background-color: red;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+.info p {
+  margin: 24px 0;
+}
+
+.info span {
+  color: #000000;
+  font-size: .6rem;
+  font-weight: 400;
+}
+
+
+
+
+/* Course */
+
+.course {
+  background-color: #D3D3D3;
+  width: 100%;
+}
+
+.course .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.course h2 {
+  margin: 32px 0;
+}
+
+/* Thesis */
+
+.thesis {
+  background-color: pink;
+  width: 100%;
+  display: block;
+  justify-content: center;
+}
+
+.title h2 {
+  width: 100%;
+  text-align: center;
+  margin: 32px 0;
+}
+
+.thesis .flex-container {
+  background-color: violet;
+  width: 60%;
+  height: auto;
+}
+
+
+
+.thesis video {
+  width: 60%;
+  height: auto;
+}
+
+
+/* Footer */
+footer {
+  background-color: #D3D3D3;
+  width: 100%;
+}
+
+footer .flex-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 16px 0 0 24px
+}
+
 
 
 /* Google Fonts */
