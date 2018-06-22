@@ -38,6 +38,17 @@ p {
   width: 100%;
 }
 
+.left {
+  width: 60%;
+  height: auto;
+  padding: 36px 24px;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+}
+
 
 /* Nav Bar */
 
@@ -119,15 +130,12 @@ nav li {
 .banner .right {
   display: flex;
   align-items: center;
-  width: 40%;
-  height: 100%;
+
 }
 
 .banner .left {
   background-color: rgba(220,215,215, 0.9);
-  width: 60%;
-  height: auto;
-  padding: 36px 24px;
+
 }
 
 .banner .text {
@@ -158,22 +166,17 @@ nav li {
   justify-content: flex-start;
 }
 
-.info .featured-block {
+.info .left {
   background-color: rgba(247,215,215, 0.9);
-  width: 60%;
-  height: auto;
-  padding: 36px 24px;
 }
 
-.info .featured-block .text {
+.info .left .text {
   margin-top: 32px;
 }
 
-.info-block {
+.right {
   display: block;
   align-items: flex-start;
-  width: 40%;
-  height: auto;
 }
 
 .info img {
