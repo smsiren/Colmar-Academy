@@ -233,6 +233,51 @@ nav li {
   margin: 32px 0;
 }
 
+
+/* Course */
+
+.course {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  background-color: #b2e8f4;
+  width: 100%;
+  text-align: center;
+}
+
+.course .flex-container {
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 26px 72px;
+}
+
+.course .item {
+  background-color: pink;
+  width: 25%;
+  height: auto;
+  margin: 16px;
+}
+
+.course .item img {
+  width: 100%;
+  height: auto;
+}
+
+.course .text {
+  padding: 16px;
+}
+
+.course .text span {
+  font-size: .75rem;
+  margin: 8px 0;
+}
+
+
 /* Thesis */
 
 .thesis {
@@ -242,10 +287,9 @@ nav li {
 }
 
 .thesis .title {
-  background-color: #b2e8e8;
   width: 100%;
   text-align: center;
-  padding: 32px 0;
+  padding-top: 32px;
 }
 
 .thesis .flex-container {
