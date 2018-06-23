@@ -21,11 +21,16 @@
             <span id="colmar">COLMAR</span><span id="academy">ACADEMY</span>
           </div>
           <nav>
-            <ul>
+            <ul class=desktop>
               <li>On campus</li>
               <li>Online</li>
-              <li>Our companies</li>
+              <li>For companies</li>
               <li>Sign in</li>
+            </ul>
+            <ul class=mobile>
+              <li><img src="./resources/images/ic-on-campus.svg" alt="desk icon"></li>
+              <li><img src="./resources/images/ic-online.svg" alt="computer icon"></li>
+              <li><img src="./resources/images/ic-login.svg" alt="login icon"></li>
             </ul>
           </nav>
           </div>
@@ -75,32 +80,35 @@
 
             <div class="right">
 
-              <div class="info-item">
-                <img src="./resources/images/information-orientation.jpg" alt="">
+              <div class="item">
+                <img src="./resources/images/information-orientation.jpg" alt="" class="desktop">
+                <img src="./resources/images/information-orientation-mobile.jpg" alt="" class="mobile">
                 <div class="text">
                   <h3>Orientation date</h3>
                   <p>Tue 10/11 & wed 10/12:8am-3pm</p>
                   <span>Read more</span>
                 </div>
-              </div> <!-- end info-item-->
+              </div> <!-- end item-->
 
-              <div class="info-item"  id="middle-box">
-                <img src="./resources/images/information-campus.jpg" alt="">
+              <div class="item"  id="middle-box">
+                <img src="./resources/images/information-campus.jpg" alt="" class="desktop">
+                <img src="./resources/images/information-campus-mobile.jpg" alt="" class="mobile">
                 <div class="text">
                   <h3>Our campus</h3>
                   <p>Find which campus is close to you</p>
                   <span>Read more</span>
                 </div>
-              </div> <!-- end info-item-->
+              </div> <!-- end item-->
 
-              <div class="info-item">
-                <img src="./resources/images/information-guest-lecture.jpg" alt="">
+              <div class="item">
+                <img src="./resources/images/information-guest-lecture.jpg" alt="" class="desktop">
+                <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="" class="mobile">
                 <div class="text">
                   <h3>Our guest lecture</h3>
                   <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                   <span>Read more</span>
                 </div>
-              </div> <!-- end info-item -->
+              </div> <!-- end item -->
 
             </div> <!-- end info-list-block -->
           </div> <!-- end flex-container -->
@@ -201,7 +209,7 @@
                   <p>Designer showcase of new prototype product</p>
                   <span></span>
                 </div>
-              </div> <!-- end info-item-->
+              </div> <!-- end item-->
 
               <div class="item">
                 <img src="./resources/images/thesis-now-and-then.jpg" alt="">
@@ -210,7 +218,7 @@
                   <p>Research study about New York</p>
                   <span></span>
                 </div>
-              </div> <!-- end info-item-->
+              </div> <!-- end item-->
 
             </div> <!-- end thesis-list-block -->
           </div> <!-- end flex-container -->

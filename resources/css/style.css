@@ -50,6 +50,99 @@ p {
 }
 
 
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 700px) {
+  /* MOBILE RULE SET 480px */
+
+.container {
+  max-width: 100%;
+}
+
+/* Nav Bar */
+.desktop {
+  display: none;
+}
+
+/* Banner */
+
+.banner .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner .left {
+  background-color: pink;
+  width: 100%;
+}
+
+.banner .right {
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 32px 16px;
+}
+
+/* Info */
+
+.info .flex-container {
+  display: block;
+  justify-content: center;
+}
+
+.info .left  {
+  display: none;
+}
+
+.info .right {
+  width: 100%;
+  height: auto;
+
+  padding-top: 16px;
+}
+
+.info .right .item {
+  background-color: pink;
+  display: block;
+  padding: 16px;
+}
+
+.info .right .item img {
+  width: 100%;
+  height: auto;
+}
+
+.info .right .item .text {
+  width: 50%;
+  margin: 64px 16px;
+}
+
+.info .right span {
+  color: #2f86ff;
+  font-size: .75rem;
+}
+
+
+
+
+
+} /* End MOBILE MEDIA QUERIES */
+@media only screen and (min-width: 701px) {
+  /* DESKTOP RULE SET */
+
+/* Nav Bar */
+.mobile {
+  display: none;
+}
+
+/* Banner */
+
+} /* End DESKTOP MEDIA QUERIES */
+
+
 /* Nav Bar */
 
 .nav-bar {
@@ -107,13 +200,12 @@ nav li {
 /* Banner */
 
 .banner {
-  background-color: #D3D3D3;
   width: 100%;
 }
 
 .banner .flex-container {
+  background-color: #D3D3D3;
   display: flex;
-  justify-content: flex-start;
 }
 
 .banner .content {
@@ -124,10 +216,6 @@ nav li {
 .banner img {
   width: 100%;
   height: auto;
-}
-
-.banner .left {
-  background-color: rgba(220,215,215, 0.9);
 }
 
 .banner .right {
@@ -187,14 +275,14 @@ nav li {
   padding-top: 16px;
 }
 
-.info .right .info-item {
+.info .right .item {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 16px;
 }
 
-.info .right .info-item:hover {
+.info .right .item:hover {
   background-color: #D3D3D3;
 }
 
@@ -203,12 +291,12 @@ nav li {
   border-bottom: 1px solid #D3D3D3;
 }
 
-.info .right .info-item img {
+.info .right .item img {
   width: 35%;
   height: auto;
 }
 
-.info .right .info-item .text {
+.info .right .item .text {
   margin: 0 16px;
 }
 
