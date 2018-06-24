@@ -60,25 +60,23 @@ p {
   max-width: 100%;
 }
 
-/* Nav Bar */
-.desktop {
+/* Nav Bar Mobile*/
+#desktop {
   display: none;
 }
 
-/* Banner */
-
+/* Banner Mobile*/
 .banner .content {
   display: flex;
   flex-wrap: wrap;
 }
 
 .banner .left {
-  background-color: pink;
   width: 100%;
+  padding: 0;
 }
 
 .banner .right {
-  background-color: purple;
   display: flex;
   align-items: center;
   width: 100%;
@@ -86,47 +84,105 @@ p {
   padding: 32px 16px;
 }
 
-/* Info */
-
-.info .flex-container {
-  display: block;
-  justify-content: center;
+.banner .right .text {
+  margin-left: 0;
 }
 
+.banner .button span {
+  background-color: #767676;
+  font-weight: 500;
+}
+
+/* Info Mobile*/
 .info .left  {
   display: none;
 }
 
 .info .right {
+  display: block;
   width: 100%;
-  height: auto;
-
-  padding-top: 16px;
 }
 
 .info .right .item {
-  background-color: pink;
-  display: block;
-  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.info .right .item img {
+.info #mobile {
+  /* info mobile image */
+  width: 100%;
+  height: auto;
+  padding: 0 0 16px 0;
+}
+
+.info .right .item .text {
+  width: 100%;
+  height: auto;
+  padding-bottom: 16px;
+}
+
+
+/* Course Mobile*/
+.course {
+  background-color: #red;
+  width: 100%;
+}
+
+.course .title {
+  background-color: #FFFFFF;
+  padding: 32px 0 16px 0;
+}
+
+.course #mobile {
+  background-color: #FFFFFF;
+  display: block;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 16px;
+}
+
+#mobile h3 {
+  width: 100%;
+  background-color: #D3D3D3;
+  margin: 8px 0;
+  padding: 16px 16px 24px 16px;
+}
+
+
+/* Thesis Mobile*/
+
+.left {
+  padding: 0;
+}
+
+.thesis .title {
+  padding: 32px 0 16px 0;
+  border-top: solid 1px #D3D3D3;
+}
+
+.thesis .left {
+  width: 100%;
+  height: auto;
+}
+.thesis video {
   width: 100%;
   height: auto;
 }
 
-.info .right .item .text {
-  width: 50%;
-  margin: 64px 16px;
+/* Footer Mobile*/
+footer {
+  width: 100%;
+  height: auto;
+  border-top: solid 1px #D3D3D3;
 }
 
-.info .right span {
-  color: #2f86ff;
-  font-size: .75rem;
+footer .flex-container {
+  padding: 24px 16px 16px 16px;
 }
 
-
-
+.copyright {
+  padding-top: 16px;
+}
 
 
 } /* End MOBILE MEDIA QUERIES */
@@ -134,7 +190,7 @@ p {
   /* DESKTOP RULE SET */
 
 /* Nav Bar */
-.mobile {
+#mobile {
   display: none;
 }
 
