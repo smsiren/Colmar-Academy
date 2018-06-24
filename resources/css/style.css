@@ -50,155 +50,6 @@ p {
 }
 
 
-
-/* MEDIA QUERIES */
-
-@media only screen and (max-width: 700px) {
-  /* MOBILE RULE SET 480px */
-
-.container {
-  max-width: 100%;
-}
-
-/* Nav Bar Mobile*/
-#desktop {
-  display: none;
-}
-
-/* Banner Mobile*/
-.banner .content {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.banner .left {
-  width: 100%;
-  padding: 0;
-}
-
-.banner .right {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding: 32px 16px;
-}
-
-.banner .right .text {
-  margin-left: 0;
-}
-
-.banner .button span {
-  background-color: #767676;
-  font-weight: 500;
-}
-
-/* Info Mobile*/
-.info .left  {
-  display: none;
-}
-
-.info .right {
-  display: block;
-  width: 100%;
-}
-
-.info .right .item {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.info #mobile {
-  /* info mobile image */
-  width: 100%;
-  height: auto;
-  padding: 0 0 16px 0;
-}
-
-.info .right .item .text {
-  width: 100%;
-  height: auto;
-  padding-bottom: 16px;
-}
-
-
-/* Course Mobile*/
-.course {
-  background-color: #red;
-  width: 100%;
-}
-
-.course .title {
-  background-color: #FFFFFF;
-  padding: 32px 0 16px 0;
-}
-
-.course #mobile {
-  background-color: #FFFFFF;
-  display: block;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0 16px;
-}
-
-#mobile h3 {
-  width: 100%;
-  background-color: #D3D3D3;
-  margin: 8px 0;
-  padding: 16px 16px 24px 16px;
-}
-
-
-/* Thesis Mobile*/
-
-.left {
-  padding: 0;
-}
-
-.thesis .title {
-  padding: 32px 0 16px 0;
-  border-top: solid 1px #D3D3D3;
-}
-
-.thesis .left {
-  width: 100%;
-  height: auto;
-}
-.thesis video {
-  width: 100%;
-  height: auto;
-}
-
-/* Footer Mobile*/
-footer {
-  width: 100%;
-  height: auto;
-  border-top: solid 1px #D3D3D3;
-}
-
-footer .flex-container {
-  padding: 24px 16px 16px 16px;
-}
-
-.copyright {
-  padding-top: 16px;
-}
-
-
-} /* End MOBILE MEDIA QUERIES */
-@media only screen and (min-width: 701px) {
-  /* DESKTOP RULE SET */
-
-/* Nav Bar */
-#mobile {
-  display: none;
-}
-
-/* Banner */
-
-} /* End DESKTOP MEDIA QUERIES */
-
-
 /* Nav Bar */
 
 .nav-bar {
@@ -475,6 +326,186 @@ footer span {
   font-size: .75rem;
   margin: 8px;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+  /* MOBILE RULE SET */
+
+.container {
+  max-width: 100%;
+}
+
+/* Nav Bar Mobile*/
+#desktop {
+  display: none;
+}
+
+/* Banner Mobile*/
+.banner .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner .left {
+  width: 100%;
+  padding: 0;
+}
+
+.banner .right {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 32px 16px;
+}
+
+.banner .right .text {
+  margin-left: 0;
+}
+
+.banner .button span {
+  background-color: #767676;
+  font-weight: 500;
+}
+
+/* Info Mobile*/
+.info .left  {
+  display: none;
+}
+
+.info .right {
+  display: block;
+  width: 100%;
+}
+
+.info .right .item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info #mobile {
+  /* info mobile image */
+  width: 100%;
+  height: auto;
+  padding: 0 0 16px 0;
+}
+
+.info .right .item .text {
+  width: 100%;
+  height: auto;
+  padding-bottom: 16px;
+}
+
+
+/* Course Mobile*/
+.course {
+  background-color: #red;
+  width: 100%;
+}
+
+.course .title {
+  background-color: #FFFFFF;
+  padding: 32px 0 16px 0;
+}
+
+.course #mobile {
+  background-color: #FFFFFF;
+  display: block;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 16px;
+}
+
+#mobile h3 {
+  width: 100%;
+  background-color: #D3D3D3;
+  margin: 8px 0;
+  padding: 16px 16px 24px 16px;
+}
+
+
+/* Thesis Mobile*/
+
+.left {
+  padding: 0;
+}
+
+.thesis .title {
+  padding: 32px 0 16px 0;
+  border-top: solid 1px #D3D3D3;
+}
+
+.thesis .left {
+  width: 100%;
+  height: auto;
+}
+.thesis video {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer Mobile*/
+footer {
+  width: 100%;
+  height: auto;
+  border-top: solid 1px #D3D3D3;
+}
+
+footer .flex-container {
+  padding: 24px 16px 16px 16px;
+}
+
+.copyright {
+  padding-top: 16px;
+}
+
+} /* End MOBILE MEDIA QUERIES */
+
+
+@media only screen and (max-width: 900px) {
+  /* Tablet RULE SET */
+
+/* Banner tablet*/
+.banner .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner .left {
+  width: 100%;
+  padding: 0;
+}
+
+.banner .right {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 32px 16px;
+}
+
+.banner .right .text {
+  margin-left: 0;
+}
+
+.banner .button span {
+  background-color: #767676;
+  font-weight: 500;
+}
+}
+
+
+@media only screen and (min-width: 769px) {
+  /* DESKTOP RULE SET */
+
+/* Nav Bar */
+#mobile {
+  display: none;
+}
+} /* End DESKTOP MEDIA QUERIES */
+
+
 
 /* Google Fonts */
 
