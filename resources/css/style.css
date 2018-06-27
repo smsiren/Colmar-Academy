@@ -95,7 +95,7 @@ img {
 }
 
 #academy {
-  color: #767676;
+  color: #ddd8d0;
   font-family: 'Biryani', helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -354,6 +354,10 @@ footer span {
 @media only screen and (max-width: 768px) {
   /* MOBILE RULE SET */
 
+  img {
+    border-radius: 0px;
+  }
+
 .container {
   max-width: 100%;
 }
@@ -386,8 +390,8 @@ footer span {
   margin-left: 0;
 }
 
-.banner .button span {
-  background-color: #767676;
+.button span {
+  background-color: #f8ce14;
   font-weight: 500;
 }
 
@@ -422,7 +426,7 @@ footer span {
 
 /* Course Mobile*/
 .course {
-  background-color: #red;
+  background-color: #FFFFFF;
   width: 100%;
 }
 
@@ -444,6 +448,10 @@ footer span {
   background-color: #ddd8d0;
   margin: 8px 0;
   padding: 16px 16px 24px 16px;
+}
+
+#mobile h3:hover {
+  background-color: #f8ce14;
 }
 
 
@@ -509,11 +517,6 @@ footer .flex-container {
 
 .banner .right .text {
   margin-left: 0;
-}
-
-.banner .button span {
-  background-color: #767676;
-  font-weight: 500;
 }
 }
 
