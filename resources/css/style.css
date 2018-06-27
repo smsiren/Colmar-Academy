@@ -390,13 +390,9 @@ footer span {
   margin-left: 0;
 }
 
-.button span {
-  background-color: #f8ce14;
-  font-weight: 500;
-}
 
 /* Info Mobile*/
-.info .left  {
+.info .left {
   display: none;
 }
 
