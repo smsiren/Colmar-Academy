@@ -5,6 +5,7 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
   </head>
 
 
@@ -21,16 +22,16 @@
             <span id="colmar">COLMAR</span><span id="academy">ACADEMY</span>
           </div>
           <nav>
-            <ul id="desktop">
+            <ul id="desktop" role="menu">
               <li>On campus</li>
               <li>Online</li>
               <li>For companies</li>
               <li>Sign in</li>
             </ul>
-            <ul id="mobile">
-              <li><img src="./resources/images/ic-on-campus.svg" alt="desk icon"></li>
-              <li><img src="./resources/images/ic-online.svg" alt="computer icon"></li>
-              <li><img src="./resources/images/ic-login.svg" alt="login icon"></li>
+            <ul id="mobile" role="menu">
+              <li><img src="./resources/images/ic-on-campus.svg" aria-label="menuitem" alt="desk icon"></li>
+              <li><img src="./resources/images/ic-online.svg" aria-label="menuitem" alt="computer icon"></li>
+              <li><img src="./resources/images/ic-login.svg" aria-label="menuitem" alt="login icon"></li>
             </ul>
           </nav>
           </div>
@@ -183,7 +184,7 @@
       </div> <!-- end Course -->
 
       <!-- Course Mobile -->
-      <div id="mobile">
+      <div id="mobile" role="menu">
         <h3>Software engineering</h3>
         <h3>Computer art</h3>
         <h3>Design</h3>
@@ -239,7 +240,7 @@
 
           <div class="flex-container">
             <div class="copyright">
-              <span> © 2018 Colmar Academy. All Rights Reserved</span>
+              <span role="presentation"> © 2018 Colmar Academy. All Rights Reserved</span>
             </div>
             <div class="footer-nav">
               <span id="desktop">Terms</span>
